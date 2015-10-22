@@ -1,0 +1,93 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:baselineAligned="true">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <ImageView
+                android:src="@drawable/carritocomprasfavorite"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center" />
+
+
+
+                <EditText android:id="@+id/TxtSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Realice su búsqueda"
+                    android:drawableRight="@drawable/ic_action_search"
+                    android:layout_weight="8"
+                    />
+
+
+            <ImageView
+                android:src="@drawable/carritocomprasgo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:src="@drawable/user"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Temda"
+                android:layout_weight="8"
+                android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+            <!--
+            -->
+
+            <ImageView
+                android:src="@drawable/carritocompras"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+
+        <GridLayout
+            android:id="@+id/RelativeImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="1">
+
+
+
+                <TextView
+                    android:id="@+id/txtDescuentoLicores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20%"
+                    android:layout_gravity="right" />
+
+                <ImageView
+                    android:id="@+id/ImgLicores"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/lois"
+                    android:foregroundGravity="center_horizontal"
+                    />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/txtPrecioOriginalLicores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/RelativeImagen"
+            android:layout_below="@id/RelativeImagen"
+            android:text="S/.20"/>
+
+        <TextView
+            android:id="@+id/txtPrecioVentaLicores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RelativeImagen"
+            android:layout_alignRight="@id/RelativeImagen"
+            android:text="S/.18"/>
+
+        <TextView
+            android:id="@+id/txtDescripcionLicores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/RelativeImagen"
+            android:paddingLeft="5dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit.adipisicing
+            elit.adipisicing elit.adipisicing elit.adipisicing elit." />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

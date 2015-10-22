@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/Inicio"
+            android:icon="@drawable/inicio"
+            android:title="@string/Inicio"
+
+            />
+        <item
+            android:id="@+id/Licores"
+            android:icon="@drawable/botella"
+            android:title="@string/Licores"
+
+            />
+        <item
+            android:id="@+id/Postres"
+            android:icon="@drawable/postre"
+            android:title="@string/Postres"
+            />
+
+        <item
+            android:id="@+id/Zapatos"
+            android:icon="@drawable/zapatos"
+            android:title="@string/Zapatos"
+            />
+        <item
+            android:id="@+id/Software"
+            android:icon="@drawable/software"
+            android:title="@string/Software"
+            />
+        <item
+            android:id="@+id/Hardware"
+            android:icon="@drawable/hardware"
+            android:title="@string/Hardware"
+            />
+        <item
+            android:id="@+id/Ropa"
+            android:icon="@drawable/ropa"
+            android:title="@string/Ropa"
+            />
+
+    </group>
+
+</menu>
